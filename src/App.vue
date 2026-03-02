@@ -16,7 +16,7 @@
                             <div class="quantity-selector">
                                 <button class="quantity-change-button" @click="decreaseOne(item.id)">−</button>
                                 <input type="text" class="quantity-input" 
-                                v-model.number="shoppingCartItems[0].quantity"
+                                v-model.number="item.quantity"
                                 aria-label="quantity" 
                                >
                                 <button class="quantity-change-button" @click="increaseOne(item.id)">+</button>
